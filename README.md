@@ -1,1 +1,1 @@
-maven spring springMVC mybatis
+maven spring springMVC mybatis （SSM）
