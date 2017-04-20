@@ -10,5 +10,4 @@ import java.util.List;
 public interface IUserDao {
 
     List<User> queryForUser();
-    List<User> selectForUser();
 }
