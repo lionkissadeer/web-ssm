@@ -22,6 +22,7 @@ public class UserController {
 	public ModelAndView showUsers(HttpServletRequest request, ModelMap model) {
 		List<User> users = userService.getAllUser();
 		model.addAttribute("users", users);
+		System.out.println("AA");
 //		return "showUsers";
 		return new ModelAndView("showUsers",model);
 	}
